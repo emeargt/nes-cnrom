@@ -1,4 +1,4 @@
-update=2022-04-25 7:43:55 PM
+update=2022-04-25 8:31:48 PM
 version=1
 last_client=kicad
 [general]
@@ -250,7 +250,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=C:/Projects/NTSFootprints/Schenktronics A4.kicad_wks
-PlotDirectoryName=pdf/
+PlotDirectoryName=images/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
