@@ -1,0 +1,8 @@
+*.xlsx
+*.xml
+
+# backups
+*-bak
+
+# gerber zips
+gerber/*.zip

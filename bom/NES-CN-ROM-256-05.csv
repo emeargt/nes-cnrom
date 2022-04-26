@@ -1,0 +1,8 @@
+Reference, Quantity, Value, Footprint,Notes, Datasheet
+C1 ,1,22uF,Capacitor_THT:CP_Radial_D4.0mm_P1.50mm,,https://www.digikey.ca/en/products/detail/panasonic-electronic-components/EEA-GA1A220/2504565
+C2 C3 ,2,10nF,Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal,,https://www.digikey.ca/en/products/detail/kemet/C410C103K5R5TA7200/818228
+D1 D2 ,2,1N4148,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,Not populated (don't need to buy),https://www.digikey.ca/en/products/detail/onsemi/1N4148TR/458811
+U2 ,1,74HC161,Package_DIP:DIP-16_W7.62mm,,https://www.digikey.ca/en/products/detail/texas-instruments/SN74HC161N/376952
+U3 ,1,ATtiny13A-PU,Package_DIP:DIP-8_W7.62mm,,https://www.digikey.ca/en/products/detail/microchip-technology/ATTINY13A-PU/1914671
+U4 ,1,CHR-ROM,Package_DIP:DIP-28_W15.24mm,Can order from buyicnow,https://www.digikey.ca/en/products/detail/microchip-technology/AT27C256R-70PU/1008551
+U5 ,1,PRG-ROM,Package_DIP:DIP-28_W15.24mm,Can order from buyicnow,https://www.digikey.ca/en/products/detail/microchip-technology/AT27C256R-70PU/1008551

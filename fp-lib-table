@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name nes_cartridge)(type KiCad)(uri D:/KiCad/projects/cnrom/nes_cartridge.pretty)(options "")(descr ""))
+)
