@@ -1,4 +1,8 @@
 # nes-cnrom
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+
 This repository contains a KiCad project for a NES-CN-ROM-256-05 cartridge pcb.
 
 The board matches the dimensions of the original and will idealy fit in standard or reproduction shells. A list of parts to populate the board can be found in the bom directory.
