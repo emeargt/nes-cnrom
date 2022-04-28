@@ -6,6 +6,8 @@
 
 This repository contains a KiCad project for a NES-CN-ROM-256-05 cartridge pcb.
 
+Original NES-CN-ROM-256-05 schematic is from N. Schenk's [NES repo](https://github.com/schenkzoola/NES/tree/main/Cartridges/NES/NES-CN-ROM-256-05). The schematic was modified to include currently available parts and their associated footprints.
+
 The board matches the dimensions of the original and will idealy fit in standard or reproduction shells. A list of parts to populate the board can be found in the bom directory.
 
 ## Schematic
