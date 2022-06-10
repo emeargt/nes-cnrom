@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "NES-CN-ROM-256-05 Schematic"
-Date "2022-04-25"
-Rev "v01"
+Date "2022-06-09"
+Rev "v01.1"
 Comp ""
 Comment1 "License: https://creativecommons.org/licenses/by-sa/4.0/"
 Comment2 ""
@@ -967,14 +967,12 @@ Text Notes 2550 7550 0    50   ~ 0
 Horizontal mirroring: H open, V closed\nVertical mirroring: H closed, V open\n\nH closed by default
 Text GLabel 2950 7050 0    50   Input ~ 0
 PPU_A11
-NoConn ~ 10000 3700
-NoConn ~ 10000 3800
-NoConn ~ 10100 3700
-NoConn ~ 10100 3800
 Wire Wire Line
-	10100 3700 10150 3700
+	10000 3700 10050 3700
 Wire Wire Line
-	10150 3700 10150 3800
+	10050 3700 10050 3800
 Wire Wire Line
-	10150 3800 10100 3800
+	10050 3800 10000 3800
+Text Notes 8750 5500 0    50   ~ 0
+Pins 57-58 are connected for internal VRAM enable
 $EndSCHEMATC

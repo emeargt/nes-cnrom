@@ -1,4 +1,4 @@
-update=2022-04-25 8:31:48 PM
+update=2022-06-09 9:54:09 PM
 version=1
 last_client=kicad
 [general]
@@ -245,6 +245,17 @@ ViaDrill=0.8
 uViaDiameter=1.6
 uViaDrill=0.8
 dPairWidth=1.4
+dPairGap=0.2
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=VRAM_Enable
+Clearance=0.2
+TrackWidth=2
+ViaDiameter=1.6
+ViaDrill=0.8
+uViaDiameter=1.6
+uViaDrill=0.8
+dPairWidth=2
 dPairGap=0.2
 dPairViaGap=0.25
 [schematic_editor]

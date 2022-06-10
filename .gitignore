@@ -4,5 +4,8 @@
 # backups
 *-bak
 
+# temp files
+*.tmp
+
 # gerber zips
 gerber/*.zip

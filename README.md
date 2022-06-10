@@ -21,5 +21,7 @@ Board render (front):
 
 ## Changelog
 
-### v01
+### [v01]
 * Initial schematic and board layout
+
+[v01]: https://github.com/emeargt/nes-cnrom/releases/tag/v01-alpha
