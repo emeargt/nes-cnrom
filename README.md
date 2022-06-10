@@ -23,7 +23,11 @@ Board render (front):
 
 ## Changelog
 
-### [v01]
-* Initial schematic and board layout
+### [v01.1]
+- Connected pins 57 and 58 on the cartridge edge connector for internal VRAM enable.
 
+### [v01]
+- Initial schematic and board layout.
+
+[v01.1]: https://github.com/emeargt/nes-cnrom/releases/tag/v01.1
 [v01]: https://github.com/emeargt/nes-cnrom/releases/tag/v01-alpha
