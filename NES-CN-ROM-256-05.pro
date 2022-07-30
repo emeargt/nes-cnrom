@@ -1,4 +1,4 @@
-update=2022-06-09 9:54:09 PM
+update=2022-07-30 4:34:04 PM
 version=1
 last_client=kicad
 [general]
@@ -250,7 +250,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=VRAM_Enable
 Clearance=0.2
-TrackWidth=2
+TrackWidth=0.4
 ViaDiameter=1.6
 ViaDrill=0.8
 uViaDiameter=1.6
@@ -261,7 +261,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=C:/Projects/NTSFootprints/Schenktronics A4.kicad_wks
-PlotDirectoryName=images/
+PlotDirectoryName=pdf/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "NES-CN-ROM-256-05 Schematic"
-Date "2022-06-09"
-Rev "v01.1"
+Date "2022-07-30"
+Rev "v02"
 Comp ""
 Comment1 "License: https://creativecommons.org/licenses/by-sa/4.0/"
 Comment2 ""
@@ -273,103 +273,88 @@ Wire Notes Line
 	8300 500  8300 6500
 Text Notes 2000 7400 2    50   ~ 0
 32x8 is selected by default\n(left jumper)
-Text GLabel 6400 2900 0    50   Input ~ 0
-PPU_A13
-Text GLabel 6400 3000 0    50   Input ~ 0
-PPU_RD
-Text GLabel 6400 2300 0    50   Input ~ 0
+Text GLabel 6500 1950 0    50   Input ~ 0
 PPU_A11
-Text GLabel 6400 2200 0    50   Input ~ 0
+Text GLabel 6500 1850 0    50   Input ~ 0
 PPU_A10
-Text GLabel 6400 2100 0    50   Input ~ 0
+Text GLabel 6500 1750 0    50   Input ~ 0
 PPU_A9
-Text GLabel 6400 2000 0    50   Input ~ 0
+Text GLabel 6500 1650 0    50   Input ~ 0
 PPU_A8
-Text GLabel 6400 1900 0    50   Input ~ 0
+Text GLabel 6500 1550 0    50   Input ~ 0
 PPU_A7
-Text GLabel 6400 1200 0    50   Input ~ 0
+Text GLabel 6500 850  0    50   Input ~ 0
 PPU_A0
-Text GLabel 6400 1300 0    50   Input ~ 0
+Text GLabel 6500 950  0    50   Input ~ 0
 PPU_A1
-Text GLabel 6400 1400 0    50   Input ~ 0
+Text GLabel 6500 1050 0    50   Input ~ 0
 PPU_A2
-Text GLabel 6400 1500 0    50   Input ~ 0
+Text GLabel 6500 1150 0    50   Input ~ 0
 PPU_A3
-Text GLabel 6400 1600 0    50   Input ~ 0
+Text GLabel 6500 1250 0    50   Input ~ 0
 PPU_A4
-Text GLabel 6400 1700 0    50   Input ~ 0
+Text GLabel 6500 1350 0    50   Input ~ 0
 PPU_A5
-Text GLabel 6400 1800 0    50   Input ~ 0
+Text GLabel 6500 1450 0    50   Input ~ 0
 PPU_A6
-Text GLabel 7200 1600 2    50   BiDi ~ 0
+Text GLabel 7700 1250 2    50   BiDi ~ 0
 PPU_AD4
-Text GLabel 7200 1700 2    50   BiDi ~ 0
+Text GLabel 7700 1350 2    50   BiDi ~ 0
 PPU_AD5
-Text GLabel 7200 1800 2    50   BiDi ~ 0
+Text GLabel 7700 1450 2    50   BiDi ~ 0
 PPU_AD6
-Text GLabel 7200 1900 2    50   BiDi ~ 0
+Text GLabel 7700 1550 2    50   BiDi ~ 0
 PPU_AD7
-Text GLabel 7200 1500 2    50   BiDi ~ 0
+Text GLabel 7700 1150 2    50   BiDi ~ 0
 PPU_AD3
-Text GLabel 7200 1400 2    50   BiDi ~ 0
+Text GLabel 7700 1050 2    50   BiDi ~ 0
 PPU_AD2
-Text GLabel 7200 1300 2    50   BiDi ~ 0
+Text GLabel 7700 950  2    50   BiDi ~ 0
 PPU_AD1
-Text GLabel 7200 1200 2    50   BiDi ~ 0
+Text GLabel 7700 850  2    50   BiDi ~ 0
 PPU_AD0
-$Comp
-L power:+5V #PWR024
-U 1 1 5EDE512E
-P 6400 2700
-F 0 "#PWR024" H 6400 2550 50  0001 C CNN
-F 1 "+5V" V 6415 2828 50  0000 L CNN
-F 2 "" H 6400 2700 50  0001 C CNN
-F 3 "" H 6400 2700 50  0001 C CNN
-	1    6400 2700
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:+5V #PWR027
 U 1 1 5EDD7ECB
-P 6800 1000
-F 0 "#PWR027" H 6800 850 50  0001 C CNN
-F 1 "+5V" H 6815 1173 50  0000 C CNN
-F 2 "" H 6800 1000 50  0001 C CNN
-F 3 "" H 6800 1000 50  0001 C CNN
-	1    6800 1000
+P 7100 750
+F 0 "#PWR027" H 7100 600 50  0001 C CNN
+F 1 "+5V" H 7115 923 50  0000 C CNN
+F 2 "" H 7100 750 50  0001 C CNN
+F 3 "" H 7100 750 50  0001 C CNN
+	1    7100 750 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR028
 U 1 1 5EDD6DB9
-P 6800 3200
-F 0 "#PWR028" H 6800 2950 50  0001 C CNN
-F 1 "GND" H 6805 3027 50  0000 C CNN
-F 2 "" H 6800 3200 50  0001 C CNN
-F 3 "" H 6800 3200 50  0001 C CNN
-	1    6800 3200
+P 7100 3250
+F 0 "#PWR028" H 7100 3000 50  0001 C CNN
+F 1 "GND" H 7105 3077 50  0000 C CNN
+F 2 "" H 7100 3250 50  0001 C CNN
+F 3 "" H 7100 3250 50  0001 C CNN
+	1    7100 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Memory_EPROM:27C512 U4
+L Memory_Flash:SST39SF040 U4
 U 1 1 5EE32C83
-P 6800 2100
-F 0 "U4" H 6500 3150 50  0000 C CNN
-F 1 "CHR-ROM" H 7000 3150 50  0000 C CNN
-F 2 "Package_DIP:DIP-28_W15.24mm" H 6800 2100 50  0001 C CNN
-F 3 "https://www.digikey.ca/en/products/detail/microchip-technology/AT27C256R-70PU/1008551" H 6800 2100 50  0001 C CNN
-	1    6800 2100
+P 7100 2050
+F 0 "U4" H 6700 3400 50  0000 C CNN
+F 1 "CHR-ROM" H 7450 3400 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm" H 7100 2050 50  0001 C CNN
+F 3 "https://www.digikey.ca/en/products/detail/microchip-technology/SST39SF010A-70-4C-PHE/2297826" H 7100 2050 50  0001 C CNN
+	1    7100 2050
 	1    0    0    -1  
 $EndComp
-Text Label 5950 2500 2    50   ~ 0
+Text Label 6050 2150 2    50   ~ 0
 CHR_A13
-Text Label 5950 2600 2    50   ~ 0
+Text Label 6050 2250 2    50   ~ 0
 CHR_A14
 Wire Wire Line
-	5950 2600 6400 2600
+	6050 2250 6500 2250
 Wire Wire Line
-	5950 2500 6400 2500
-Text GLabel 6400 2400 0    50   Input ~ 0
+	6050 2150 6500 2150
+Text GLabel 6500 2050 0    50   Input ~ 0
 PPU_A12
 $Comp
 L NES-CN-ROM-256-05-rescue:6113-_NTSCustom U1
@@ -492,111 +477,6 @@ CIC_OUT
 NoConn ~ 2100 5000
 NoConn ~ 2100 5100
 NoConn ~ 1300 4900
-$Comp
-L power:GND #PWR030
-U 1 1 5EDD738A
-P 6800 6050
-F 0 "#PWR030" H 6800 5800 50  0001 C CNN
-F 1 "GND" H 6805 5877 50  0000 C CNN
-F 2 "" H 6800 6050 50  0001 C CNN
-F 3 "" H 6800 6050 50  0001 C CNN
-	1    6800 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR029
-U 1 1 5EDD77F8
-P 6800 3850
-F 0 "#PWR029" H 6800 3700 50  0001 C CNN
-F 1 "+5V" H 6815 4023 50  0000 C CNN
-F 2 "" H 6800 3850 50  0001 C CNN
-F 3 "" H 6800 3850 50  0001 C CNN
-	1    6800 3850
-	1    0    0    -1  
-$EndComp
-Text GLabel 6400 4750 0    50   Input ~ 0
-CPU_A7
-Text GLabel 6400 4650 0    50   Input ~ 0
-CPU_A6
-Text GLabel 6400 4550 0    50   Input ~ 0
-CPU_A5
-Text GLabel 6400 4450 0    50   Input ~ 0
-CPU_A4
-Text GLabel 6400 4350 0    50   Input ~ 0
-CPU_A3
-Text GLabel 6400 4250 0    50   Input ~ 0
-CPU_A2
-Text GLabel 6400 4150 0    50   Input ~ 0
-CPU_A1
-Text GLabel 6400 4050 0    50   Input ~ 0
-CPU_A0
-Text GLabel 6400 5150 0    50   Input ~ 0
-CPU_A11
-Text GLabel 6400 5050 0    50   Input ~ 0
-CPU_A10
-Text GLabel 6400 4950 0    50   Input ~ 0
-CPU_A9
-Text GLabel 6400 4850 0    50   Input ~ 0
-CPU_A8
-Text GLabel 6400 5250 0    50   Input ~ 0
-CPU_A12
-Text GLabel 6400 5350 0    50   Input ~ 0
-CPU_A13
-Text GLabel 7200 4750 2    50   BiDi ~ 0
-CPU_D7
-Text GLabel 7200 4650 2    50   BiDi ~ 0
-CPU_D6
-Text GLabel 7200 4550 2    50   BiDi ~ 0
-CPU_D5
-Text GLabel 7200 4450 2    50   BiDi ~ 0
-CPU_D4
-Text GLabel 7200 4350 2    50   BiDi ~ 0
-CPU_D3
-Text GLabel 7200 4250 2    50   BiDi ~ 0
-CPU_D2
-Text GLabel 7200 4150 2    50   BiDi ~ 0
-CPU_D1
-Text GLabel 7200 4050 2    50   BiDi ~ 0
-CPU_D0
-$Comp
-L power:GND #PWR026
-U 1 1 5EE05DCE
-P 6400 5750
-F 0 "#PWR026" H 6400 5500 50  0001 C CNN
-F 1 "GND" V 6405 5622 50  0000 R CNN
-F 2 "" H 6400 5750 50  0001 C CNN
-F 3 "" H 6400 5750 50  0001 C CNN
-	1    6400 5750
-	0    1    1    0   
-$EndComp
-$Comp
-L Memory_EPROM:27C512 U5
-U 1 1 5EE13656
-P 6800 4950
-F 0 "U5" H 6500 6000 50  0000 C CNN
-F 1 "PRG-ROM" H 7000 6000 50  0000 C CNN
-F 2 "Package_DIP:DIP-28_W15.24mm" H 6800 4950 50  0001 C CNN
-F 3 "https://www.digikey.ca/en/products/detail/microchip-technology/AT27C256R-70PU/1008551" H 6800 4950 50  0001 C CNN
-	1    6800 4950
-	1    0    0    -1  
-$EndComp
-Text GLabel 6400 5850 0    50   Input ~ 0
-ROMSEL
-$Comp
-L power:+5V #PWR025
-U 1 1 5EDCEACB
-P 6400 5550
-F 0 "#PWR025" H 6400 5400 50  0001 C CNN
-F 1 "+5V" V 6400 5750 50  0000 C CNN
-F 2 "" H 6400 5550 50  0001 C CNN
-F 3 "" H 6400 5550 50  0001 C CNN
-	1    6400 5550
-	0    -1   -1   0   
-$EndComp
-Text Label 5950 5450 2    50   ~ 0
-PRG_A14
-Wire Wire Line
-	5950 5450 6400 5450
 Text GLabel 4050 2950 0    50   Output ~ 0
 PPU_A12
 Wire Wire Line
@@ -723,9 +603,9 @@ Wire Notes Line
 Wire Notes Line
 	500  6000 5200 6000
 Text Notes 5300 600  0    50   ~ 0
-CHR ROM
+CHR ROM (SST39SF0x0A support)
 Text Notes 5300 3700 0    50   ~ 0
-PRG ROM
+PRG ROM (SST39SF0x0A support)
 Text GLabel 3400 1850 0    50   BiDi ~ 0
 CPU_D5
 Text GLabel 3400 1750 0    50   BiDi ~ 0
@@ -975,4 +855,172 @@ Wire Wire Line
 	10050 3800 10000 3800
 Text Notes 8750 5500 0    50   ~ 0
 Pins 57-58 are connected for internal VRAM enable
+Text GLabel 6500 3050 0    50   Input ~ 0
+PPU_A13
+Text GLabel 6500 3150 0    50   Input ~ 0
+PPU_RD
+Wire Wire Line
+	6500 2350 6500 2450
+Connection ~ 6500 2450
+Connection ~ 6500 2550
+Wire Wire Line
+	6500 2550 6500 2650
+$Comp
+L power:+5V #PWR0102
+U 1 1 62B434C8
+P 6500 2850
+F 0 "#PWR0102" H 6500 2700 50  0001 C CNN
+F 1 "+5V" V 6500 3050 50  0000 C CNN
+F 2 "" H 6500 2850 50  0001 C CNN
+F 3 "" H 6500 2850 50  0001 C CNN
+	1    6500 2850
+	0    -1   -1   0   
+$EndComp
+Text Notes 5300 2750 0    50   ~ 0
+Upper address lines unused\nNES sees high 32KB
+Wire Wire Line
+	6500 5600 6500 5700
+Connection ~ 6500 5600
+Connection ~ 6500 5500
+Wire Wire Line
+	6500 5400 6500 5500
+Wire Wire Line
+	6050 5300 6500 5300
+Text Label 6050 5300 2    50   ~ 0
+PRG_A14
+$Comp
+L power:+5V #PWR025
+U 1 1 5EDCEACB
+P 6500 5900
+F 0 "#PWR025" H 6500 5750 50  0001 C CNN
+F 1 "+5V" V 6500 6100 50  0000 C CNN
+F 2 "" H 6500 5900 50  0001 C CNN
+F 3 "" H 6500 5900 50  0001 C CNN
+	1    6500 5900
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6500 6200 0    50   Input ~ 0
+ROMSEL
+$Comp
+L Memory_Flash:SST39SF040 U5
+U 1 1 5EE13656
+P 7100 5100
+F 0 "U5" H 6700 6450 50  0000 C CNN
+F 1 "PRG-ROM" H 7450 6450 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm" H 7100 5100 50  0001 C CNN
+F 3 "https://www.digikey.ca/en/products/detail/microchip-technology/SST39SF010A-70-4C-PHE/2297826" H 7100 5100 50  0001 C CNN
+	1    7100 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 5EE05DCE
+P 6500 6100
+F 0 "#PWR026" H 6500 5850 50  0001 C CNN
+F 1 "GND" V 6505 5972 50  0000 R CNN
+F 2 "" H 6500 6100 50  0001 C CNN
+F 3 "" H 6500 6100 50  0001 C CNN
+	1    6500 6100
+	0    1    1    0   
+$EndComp
+Text GLabel 7700 3900 2    50   BiDi ~ 0
+CPU_D0
+Text GLabel 7700 4000 2    50   BiDi ~ 0
+CPU_D1
+Text GLabel 7700 4100 2    50   BiDi ~ 0
+CPU_D2
+Text GLabel 7700 4200 2    50   BiDi ~ 0
+CPU_D3
+Text GLabel 7700 4300 2    50   BiDi ~ 0
+CPU_D4
+Text GLabel 7700 4400 2    50   BiDi ~ 0
+CPU_D5
+Text GLabel 7700 4500 2    50   BiDi ~ 0
+CPU_D6
+Text GLabel 7700 4600 2    50   BiDi ~ 0
+CPU_D7
+Text GLabel 6500 5200 0    50   Input ~ 0
+CPU_A13
+Text GLabel 6500 5100 0    50   Input ~ 0
+CPU_A12
+Text GLabel 6500 4700 0    50   Input ~ 0
+CPU_A8
+Text GLabel 6500 4800 0    50   Input ~ 0
+CPU_A9
+Text GLabel 6500 4900 0    50   Input ~ 0
+CPU_A10
+Text GLabel 6500 5000 0    50   Input ~ 0
+CPU_A11
+Text GLabel 6500 3900 0    50   Input ~ 0
+CPU_A0
+Text GLabel 6500 4000 0    50   Input ~ 0
+CPU_A1
+Text GLabel 6500 4100 0    50   Input ~ 0
+CPU_A2
+Text GLabel 6500 4200 0    50   Input ~ 0
+CPU_A3
+Text GLabel 6500 4300 0    50   Input ~ 0
+CPU_A4
+Text GLabel 6500 4400 0    50   Input ~ 0
+CPU_A5
+Text GLabel 6500 4500 0    50   Input ~ 0
+CPU_A6
+Text GLabel 6500 4600 0    50   Input ~ 0
+CPU_A7
+$Comp
+L power:+5V #PWR029
+U 1 1 5EDD77F8
+P 7100 3800
+F 0 "#PWR029" H 7100 3650 50  0001 C CNN
+F 1 "+5V" H 7115 3973 50  0000 C CNN
+F 2 "" H 7100 3800 50  0001 C CNN
+F 3 "" H 7100 3800 50  0001 C CNN
+	1    7100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 5EDD738A
+P 7100 6300
+F 0 "#PWR030" H 7100 6050 50  0001 C CNN
+F 1 "GND" H 7105 6127 50  0000 C CNN
+F 2 "" H 7100 6300 50  0001 C CNN
+F 3 "" H 7100 6300 50  0001 C CNN
+	1    7100 6300
+	1    0    0    -1  
+$EndComp
+Text Notes 5300 5800 0    50   ~ 0
+Upper address lines unused\nNES sees high 32KB
+$Comp
+L power:+5V #PWR0101
+U 1 1 62BF5162
+P 6500 5550
+F 0 "#PWR0101" H 6500 5400 50  0001 C CNN
+F 1 "+5V" V 6500 5750 50  0000 C CNN
+F 2 "" H 6500 5550 50  0001 C CNN
+F 3 "" H 6500 5550 50  0001 C CNN
+	1    6500 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 5500 6500 5550
+Connection ~ 6500 5550
+Wire Wire Line
+	6500 5550 6500 5600
+Wire Wire Line
+	6500 2450 6500 2500
+$Comp
+L power:+5V #PWR0103
+U 1 1 62BF57EF
+P 6500 2500
+F 0 "#PWR0103" H 6500 2350 50  0001 C CNN
+F 1 "+5V" V 6500 2700 50  0000 C CNN
+F 2 "" H 6500 2500 50  0001 C CNN
+F 3 "" H 6500 2500 50  0001 C CNN
+	1    6500 2500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6500 2500
+Wire Wire Line
+	6500 2500 6500 2550
 $EndSCHEMATC
