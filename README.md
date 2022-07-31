@@ -29,6 +29,7 @@ Board render (front):
 ### [v02]
 - New board layout to support 32 DIP flash chips (SST39SF0x0A)
 - Add isometric logo design
+- Increase board dimensions
 
 ### [v01.1]
 - Connected pins 57 and 58 on the cartridge edge connector for internal VRAM enable.
