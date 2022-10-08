@@ -10,6 +10,9 @@ Original NES-CN-ROM-256-05 schematic is from N. Schenk's [NES repo](https://gith
 
 The board matches the dimensions of the original and will idealy fit in standard or reproduction shells. A list of parts to populate the board can be found in the bom directory.
 
+## Build Guide
+There is a basic [build guide](./docs/buildguide.md) that provides some tips and resources for bringing up a board.
+
 ## Memory Support
 v02 was designed to support the SST39SF0x0A series of 32 DIP flash chips. However, the AT27CxxxR series of 28 DIP EPROMs have a very similar pinout and should work on the board by mapping pin 1 of the EPROM to pin 3 of the 32 DIP footprint. Other 28 DIP memory chips may work as well, but their pinouts should be compared to that of the SST39SF0x0A to be certain.
 
